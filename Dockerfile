@@ -1,6 +1,6 @@
 FROM python:stretch
 
-COPY . /cd0157-Server-Deployment-and-Containerization
+COPY . /cd0157-Server-Deployment-and-Containerization/
 WORKDIR /cd0157-Server-Deployment-and-Containerization
 
 RUN pip install --upgrade pip
